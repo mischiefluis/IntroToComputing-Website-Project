@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  * {
+    font-family: 'Akshar', sans-serif;
+  }
+  /*? MOBILE FIRST  */
+  .heading-1 {
+    font-size: 32px;
+  }
+  .heading-2 {
+    font-size: 24px;
+  }
+  .heading-3 {
+    font-size: 20px;
+  }
+  .parag {
+    font-size: 16px;
+  }
+  .logo-text {
+    font-size: 24px;
+  }
+  .subheading {
+    font-size: 24px;
+  }
+  .button {
+    background: linear-gradient(262deg, #2BA84A -28.74%, #055318 72.95%);
+    padding: 8px 20px;
+    border-radius: 30px;
+  }
+  .about-bg {
+    background: linear-gradient(262deg, #2BA84A -28.74%, #055318 72.95%);
+  }
+
+  /*? DESKTOP  */
+  @media all and (min-width: 1280px) {
+    .heading-1 {
+      font-size: 48px;
+    }
+    .heading-2 {
+      font-size: 40px;
+    }
+    .heading-3 {
+      font-size: 24px;
+    }
+    .parag {
+      font-size: 24px;
+    }
+    .logo-text {
+      font-size: 32px;
+    }
+  }
+
+}
