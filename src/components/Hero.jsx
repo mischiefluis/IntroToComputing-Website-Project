@@ -1,5 +1,4 @@
 import React from 'react'
-import calc from "/public/calc-img.png"
 
 const Hero = () => {
   return (
@@ -10,7 +9,7 @@ const Hero = () => {
         <a href="https://www.youtube.com/@TheOrganicChemistryTutor" className='button heading-3 text-white font-bold uppercase hover:opacity-80' target='_blank'>Click Here</a>
       </div>
       <div className='xl:w-[48%]'>
-        <img src={calc} className='w-full' alt="calc" />
+        <img src="./assets/calc-img.png" className='w-full' alt="calc" />
       </div>
     </div>
   )

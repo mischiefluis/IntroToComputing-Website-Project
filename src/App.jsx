@@ -1,4 +1,3 @@
-import calc from "../public/calc-img.png"
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
