@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 
 function App() {
-
   return (
     <div className="bg-black overflow-y-hidden overflow-x-hidden relative">
       {/* WRAPPER */}
