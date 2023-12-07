@@ -7,8 +7,8 @@ const Header = () => {
       <Link to="/" className='logo-text font-bold text-white'>CALC<span className='text-acc'>HUB</span></Link>
       <nav>
         <ul className='hidden items-center gap-6 text-white xl:flex'>
-          <li className='heading-3 font-bold uppercase hover:text-acc hover:scale-125 transition-all ease-in-out'><Link to="videos">Limits</Link></li>
-          <li className='heading-3 font-bold uppercase hover:text-acc hover:scale-125 transition-all ease-in-out'><Link to="videos">Differentiation</Link></li>
+          <li className='heading-3 font-bold uppercase hover:text-acc hover:scale-125 transition-all ease-in-out'><Link to="/videos/limits">Limits</Link></li>
+          <li className='heading-3 font-bold uppercase hover:text-acc hover:scale-125 transition-all ease-in-out'><Link to="/videos/differentiation">Differentiation</Link></li>
         </ul>
       </nav>
     </div>
