@@ -1,25 +1,20 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Videos from "./pages/Videos";
+import Limits from "./components/Limits";
+import Differentiation from "./components/Differentiation";
 
 function App() {
   return (
-    <div className="bg-black overflow-y-hidden overflow-x-hidden relative">
-      {/* WRAPPER */}
-      <div className="w-full max-w-[1180px] mx-auto relative">
-        {/* HERO SECTION */}
-        <div className="h-screen relative">
-          <Header></Header>
-          <Hero></Hero>
-        </div>
-        {/* ABOUT SECTION */}
-        <div className="xl:h-screen flex flex-col xl:flex-row xl:items-center xl:justify-between relative z-10">
-          <About></About>
-          <Contact></Contact>
-        </div>
-     </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/videos" element={<Videos/>}>
+          <Route path="limits" element={<Limits/>}/>
+          <Route path="differentiation" element={<Differentiation/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

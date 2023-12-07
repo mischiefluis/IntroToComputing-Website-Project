@@ -1,14 +1,19 @@
 import React from 'react'
+import { NavLink, Outlet } from 'react-router-dom';
+import '../styles/topics.css'
 
 const Topics = () => {
   return (
-    <div className='relative w-full py-2 px-4 flex items-center justify-between z-10'>
+    <div className='relative w-full py-2 px-4 z-10'>
       <nav className='w-full border-b-acc border-b-2'>
         <ul className='flex items-center gap-4'>
-          <li className='heading-3 text-white uppercase font-bold'>Limits</li>
-          <li className='heading-3 text-white uppercase font-bold'>Differentiation</li>
+          <li><NavLink to="limits" className='text-white heading-3 uppercase font-bold'>Limits</NavLink></li>
+          <li><NavLink to="differentiation" className='text-white heading-3 uppercase font-bold'>Differentiations</NavLink></li>
         </ul>
       </nav>
+      <div>
+        <Outlet/>
+      </div>
     </div>
   )
 }
