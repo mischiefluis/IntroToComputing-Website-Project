@@ -11,7 +11,7 @@ const Topics = () => {
           <li><NavLink to="differentiation" className='text-white heading-3 uppercase font-bold'>Differentiations</NavLink></li>
         </ul>
       </nav>
-      <div>
+      <div className='w-full'>
         <Outlet/>
       </div>
     </div>
