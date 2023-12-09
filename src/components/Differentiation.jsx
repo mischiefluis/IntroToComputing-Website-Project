@@ -19,7 +19,7 @@ const Differentiation = () => {
 
   return ( 
     <div className='mt-4 grid grid-cols-1 justify- gap-3 md:grid-cols-3 lg:grid-cols-4 max-w-[345px] md:max-w-[768px] lg:max-w-full mx-auto'>
-      {diff.map((vidlink)=>(<GridItem link={vidlink}/>))}
+      {diff.map((vidlink, index)=>(<GridItem link={vidlink} key={index}/>))}
     </div>
   )
 }
