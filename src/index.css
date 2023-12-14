@@ -35,6 +35,17 @@
   .about-bg {
     background: linear-gradient(262deg, #2BA84A -28.74%, #055318 72.95%);
   }
+  @keyframes fadeIn {
+    0%, 100% {
+      opacity: 0;
+    }
+    25%, 50%, 75% {
+      opacity: 100;
+    }
+  }
+  .fade-in{
+    animation: fadeIn ease-in-out 1500ms;
+  }
 
   /*? DESKTOP  */
   @media all and (min-width: 1280px) {
