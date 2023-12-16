@@ -32,6 +32,9 @@
     padding: 8px 20px;
     border-radius: 30px;
   }
+  .button:hover {
+    box-shadow: 0 0 16px #37f366;
+  }
   .about-bg {
     background: linear-gradient(262deg, #2BA84A -28.74%, #055318 72.95%);
   }
