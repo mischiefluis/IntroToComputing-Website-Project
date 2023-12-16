@@ -30,7 +30,7 @@ const Contact = ( { setDisplay } ) => {
         <input type="text" id="email" className='outline-none border-acc border-2 rounded bg-black text-white w-full parag px-2 py-1' name='email' onChange={handleInput} value={inputs.email}/>
         <label htmlFor="message" className='heading-3 text-white block font-semibold mt-3'>Message</label>
         <textarea rows={5} type="text" id="message" className='outline-none border-acc border-2 rounded bg-black text-white w-full parag px-2 py-1' name='message' onChange={handleInput} value={inputs.message}/>
-        <button className='button heading-3 text-white font-bold uppercase hover:opacity-80 text-center relative left-[50%] translate-x-[-50%] mt-3' onClick={displayModal}>Submit</button>
+        <button className='button heading-3 text-white font-bold uppercase text-center relative left-[50%] translate-x-[-50%] mt-3 transition-all ease-in-out' onClick={displayModal}>Submit</button>
       </form>
     </div>
   )
