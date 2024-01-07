@@ -9,6 +9,7 @@ const About = () => {
         <a href='https://www.facebook.com/luis.tolentino358' className='text-4xl text-white hover:text-acc hover:scale-125 transition-all ease-in-out' target='_blank'><ion-icon name="logo-facebook"></ion-icon></a>
         <a href='https://github.com/loki-099' className='text-4xl text-white hover:text-acc hover:scale-125 transition-all ease-in-out' target='_blank'><ion-icon name="logo-github"></ion-icon></a>
         <a href='https://www.instagram.com/lowkeeeey.09/' className='text-4xl text-white hover:text-acc hover:scale-125 transition-all ease-in-out' target='_blank'><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href='https://www.linkedin.com/in/luis-lloyd-tolentino-b5262a240/' className='text-4xl text-white hover:text-acc hover:scale-125 transition-all ease-in-out' target='_blank'><ion-icon name="logo-linkedin"></ion-icon></a>
       </div>
 
     </div>
